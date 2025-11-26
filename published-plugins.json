@@ -1,6 +1,21 @@
 {
    "plugins":[
       {
+        "id": "gaialog_data",
+        "description": "Decodes GaiaLog OP_RETURN transactions displaying environmental data including air quality, water levels, seismic activity, and advanced metrics stored on the BSV blockchain.",
+        "decoderType": "data",
+        "networkMain": true,
+        "networkTest": true,
+        "networkSTN": false,
+        "typeSearch": false,
+        "name": "GaiaLog",
+        "website": "https://gaialog.world",
+        "iconUrl": "https://gaialog.world/gaialog-logo-128.png ",
+        "webHook": "https://gaialog.world/data-decode/{network}/gaialog/{tx}/{voutindex}",
+        "hashPreview": "07dcb2d7cb2f4e2bf7862aa00b9a523eef6fe12c21a88e261e476d8efd958775",
+        "voutPreview": "0"
+      },
+      {
          "id":"bicomedia_2",
          "description":"",
          "decoderType":"data",
